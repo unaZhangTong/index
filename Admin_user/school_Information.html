@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>school_Information</title>
+    <link rel="stylesheet" href="css/school_Information.css">
+</head>
+<body>
+<div id="main_wrap">
+    <h1 id="logo">
+        <p>
+            <a href="javascript:;">高考志愿模拟系统</a>
+            <strong>  ——  普通管理员</strong>
+        </p>
+    </h1>
+    <div id="main">
+        <nav>
+            <!--nav-->
+            <h2><a href="javascript:;">功能操作</a></h2>
+            <div id="personal_information">
+                <p>
+                    个人信息
+                </p>
+            </div>
+            <div id="admin_account">
+                <p>
+                    普通用户账号管理
+                </p>
+            </div>
+            <div id="school_Information">
+                <p>
+                    高校信息
+                </p>
+            </div>
+            <div id="announcement">
+                <p>
+                    公告管理
+                </p>
+            </div>
+        </nav>
+        <section>
+
+
+            <!--学校管理-->
+            <div id="customer_service_account_content">
+                <h3>高校信息库</h3>
+                <p id="query1">
+                    <span>查询高校信息 ：</span>
+                    <input type="text" name="uname" id="uname1">
+                    <input type="button" value="查询" id="query_btn1">
+                    <input type="button" id="add_btn1" value="添加高校信息">
+                </p>
+                <div id="table_information1">
+                    <p>所有高校信息</p>
+                    <table>
+                        <tr>
+                            <th>院校名称</th>
+                            <th>院校所在地</th>
+                            <th>院校隶属</th>
+                            <th>院校类型</th>
+                            <th>学历层次</th>
+                            <th>院校特性</th>
+                            <th>研究生院</th>
+                            <th>满意度</th>
+                            <th>操作</th>
+                        </tr>
+                        <tbody id="nr">
+                            <!--<tr>
+                                <td><a href="#">北京城市学院</a></td>
+                                <td>北京</td>
+                                <td>北京市教育委员会</td>
+                                <td>综合</td>
+                                <td>本科/高职(专科)</td>
+                                <td></td>
+                                <td></td>
+                                <td>4.0</td>
+                                <td>
+                                    <a href="#" id="del">删除</a> | <a href="#" id="updata">修改</a>
+                                </td>
+                            </tr>-->
+                        </tbody>
+
+                    </table>
+                    <div id="fenye">
+                        <span id="left">上一页</span>
+                        <ul id="u">
+                            <!--<li>1</li>
+                            <li>2</li>
+                            <li>3</li>-->
+                        </ul>
+                        <span id="right">下一页</span>
+
+                    </div>
+                </div>
+
+                <!--添加学校信息-->
+                <div id="table_add_information1">
+
+                </div>
+
+            </div>
+
+
+        </section>
+    </div>
+</div>
+</body>
+</html>
+<script src="../jquery-1.11.1.js"></script>
+<script src="../public.js"></script>
+<script src="js/school_Information.js"></script>

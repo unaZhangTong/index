@@ -1,0 +1,133 @@
+@charset "UTF-8";
+body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, table, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+img {
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+body {
+  font-family: "微软雅黑"; }
+
+input, a {
+  outline: none; }
+
+/*高考志愿模拟系统*/
+header, #main {
+  margin: 0 auto; }
+
+header {
+  width: 1100px;
+  height: 120px; }
+  header p {
+    line-height: 120px; }
+    header p a {
+      color: #0ca843;
+      font-size: 50px;
+      font-family: "楷体"; }
+
+/*登录部分*/
+#middle_wrap {
+  box-sizing: border-box;
+  height: 530px;
+  background: url(../img/lognBgImg.jpg) no-repeat center bottom #63d8c8;
+  padding-top: 40px; }
+
+@font-face {
+  font-family: WebFont;
+  src: url(../font/iconfont.svg), url(../font/iconfont.eot), url(../font/iconfont.ttf), url(../font/iconfont.woff); }
+#main {
+  width: 600px;
+  height: 460px;
+  background: white;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 20px; }
+  #main h1 {
+    text-align: center;
+    line-height: 140px;
+    font-weight: 500;
+    padding-top: 10px; }
+  #main #form > p {
+    margin: 0 auto;
+    width: 350px;
+    height: 40px;
+    margin-bottom: 30px;
+    border: 1px solid #90969E;
+    border-radius: 5px; }
+    #main #form > p span {
+      font-family: WebFont;
+      display: inline-block;
+      width: 40px;
+      text-align: center;
+      background: white;
+      color: #90969E;
+      height: 40px;
+      line-height: 40px;
+      border-radius: 5px 0 0 5px; }
+    #main #form > p input {
+      width: 310px;
+      height: 40px;
+      padding: 0;
+      border: 0;
+      float: right;
+      border-radius: 0 5px 5px 0; }
+    #main #form > p > strong {
+      font-weight: normal;
+      font-size: 12px;
+      color: #666666; }
+  #main #form #login_wrap {
+    margin-bottom: 20px;
+    border: 0; }
+    #main #form #login_wrap input {
+      width: 350px;
+      height: 40px;
+      background: #25bb50;
+      color: white;
+      font-size: 20px;
+      border-radius: 5px; }
+  #main h5 {
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    color: #f88224;
+    font-weight: 400; }
+
+.main_Select {
+  margin: 0 auto;
+  height: 40px;
+  width: 350px;
+  border-bottom: 1px solid #E6E6E6;
+  font-size: 14px; }
+  .main_Select a {
+    color: #666666; }
+
+#user_type {
+  height: 24px;
+  border-radius: 5px; }
+
+#Select_User {
+  float: left; }
+
+#register {
+  float: right; }
+
+/*底部*/
+footer {
+  text-align: center;
+  color: #90969E;
+  padding-top: 20px; }
+
+/*# sourceMappingURL=login.css.map */

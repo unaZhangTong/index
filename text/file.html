@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="file.css">
+</head>
+<body>
+    <div id="personal_information_content">
+        <div id="basic_information">
+            <h4>基本信息</h4>
+            <div id="head_portrait">
+                <img src="1.jpg" id="pic"/>
+            </div>
+            <div class="upload">
+                <form>
+                    <input type="file" id="files" accept="image/gif,image/jpeg,image/jpg,image/png,image/svg">
+                </form>
+                <p id="upload_btn">上传头像</p>
+            </div>
+            <div>
+                基本内容
+            </div>
+        </div>
+        <div id="account_information">
+            账号信息
+        </div>
+    </div>
+</body>
+</html>
+<script src="../jquery-1.11.1.js"></script>
+<script src="../public.js"></script>
+<script>
+    $("#upload_btn").on("click",function () {
+        $("#files").click();
+
+        $("#files").on("change",function () {
+            var objUrl = getObjectURL(this.files[0]);//获取图片路径
+            console.log(objUrl);
+            if (objUrl) {
+                $("#pic").attr("src",objUrl);//将图片路径存入src中，显示图片
+            }
+        })
+    })
+</script>
+

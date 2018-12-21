@@ -1,0 +1,144 @@
+@charset "UTF-8";
+body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, table, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+img {
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+body {
+  font-family: "微软雅黑"; }
+
+input, a {
+  outline: none; }
+
+#head, #main {
+  width: 1100px;
+  margin: 0 auto; }
+
+header {
+  border-top: 20px solid #7dc7f5;
+  background: url("../img/bannerBg.jpg") no-repeat 60% bottom #eef9ff; }
+
+#head {
+  height: 150px; }
+
+#logo {
+  float: left;
+  height: 150px;
+  line-height: 150px;
+  width: 500px;
+  font-size: 50px;
+  font-family: "华文行楷";
+  color: #f48112; }
+  #logo span {
+    font-size: 24px;
+    color: #f38b05; }
+
+#login_register {
+  float: right;
+  width: 200px;
+  padding-top: 50px;
+  color: #666666; }
+  #login_register a {
+    margin: 0 20px;
+    color: #666666; }
+
+nav {
+  background: #c6e7f6; }
+  nav #nav_main {
+    width: 1100px;
+    margin: 0 auto;
+    height: 50px; }
+    nav #nav_main ul {
+      width: 910px;
+      height: 50px;
+      margin: 0 auto; }
+      nav #nav_main ul li {
+        float: left;
+        height: 50px;
+        text-align: center;
+        letter-spacing: 3px;
+        line-height: 50px;
+        padding: 0 40px; }
+        nav #nav_main ul li a {
+          color: #4a7c93;
+          font-size: 20px; }
+
+#banner {
+  width: 900px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative; }
+  #banner ul li {
+    position: absolute;
+    left: 0;
+    top: 0; }
+  #banner ol {
+    width: 210px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; }
+    #banner ol li {
+      float: left;
+      width: 20px;
+      height: 20px;
+      margin: 0 10px;
+      border-radius: 50%;
+      cursor: default;
+      background-color: #abc; }
+    #banner ol li.current {
+      background-color: pink; }
+
+#main {
+  height: 500px;
+  padding-top: 50px; }
+  #main h2 {
+    background: #7dc7f5; }
+  #main li {
+    height: 30px;
+    line-height: 30px;
+    border-top: 1px solid #999999; }
+    #main li a {
+      display: block;
+      padding-left: 20px;
+      width: 450px;
+      height: 30px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+
+#main_left {
+  background: #e7e1cd;
+  width: 500px;
+  float: left; }
+
+#main_right {
+  background: #e7e1cd;
+  width: 500px;
+  float: right; }
+
+/*底部*/
+footer {
+  text-align: center;
+  color: #90969E;
+  padding: 50px;
+  background: #c6e7f6; }
+
+/*# sourceMappingURL=index.css.map */

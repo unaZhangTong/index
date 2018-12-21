@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加公告</title>
+    <link rel="stylesheet" href="../css/announcement_select.css">
+</head>
+<body>
+<div id="add_new_content">
+    <h2>发布新公告</h2>
+    <table>
+        <tr>
+            <td><span>标题：</span><input type="text" name="title" id="title"></td>
+        </tr>
+        <tr>
+            <td><span>作者：</span><input type="text" name="author" id="author"></td>
+        </tr>
+        <tr>
+            <td><span>发布时间：</span><input type="text" name="time" id="time"></td>
+        </tr>
+        <tr>
+            <td class="content_td"><span>发布内容：</span><textarea name="up_content" id="up_content"></textarea></td>
+        </tr>
+        <tr>
+            <td>
+                <button id="put_btn">发布</button>
+                <button id="cancel_btn">取消并返回</button>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
+<script src="../../jquery-1.11.1.js"></script>
+<script src="../../public.js"></script>
+<script src="../js/announcement_select.js"></script>

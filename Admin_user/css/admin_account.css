@@ -1,0 +1,145 @@
+@charset "UTF-8";
+body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, table, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+img {
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+body {
+  font-family: "微软雅黑"; }
+
+input, a {
+  outline: none; }
+
+body {
+  background: #b0d6af; }
+
+#main_wrap {
+  background: url("../img/mianBgImg1.png") no-repeat 0% 300px, url("../img/mianBgImg7.png") no-repeat 118% 60%, url("../img/mianBgImg6.png") no-repeat 2% 100%;
+  padding-bottom: 100px; }
+
+#logo {
+  width: 100%;
+  height: 181px;
+  background: url("../img/bgImg.png") 80% -10% no-repeat #b0d6af; }
+  #logo p {
+    line-height: 190px;
+    padding-left: 100px; }
+    #logo p a {
+      color: #249225;
+      font-size: 50px;
+      font-family: "楷体"; }
+    #logo p strong {
+      font-size: 24px;
+      font-family: "楷体";
+      color: #e27f09; }
+
+#main {
+  width: 1100px;
+  height: 900px;
+  background-color: #f5f1d6;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden; }
+
+nav {
+  background-color: #f5f1d6;
+  width: 260px;
+  height: 500px;
+  padding-left: 30px;
+  position: absolute;
+  left: 0;
+  top: 0; }
+  nav > h2 {
+    box-sizing: border-box;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    width: 230px;
+    font-size: 24px;
+    font-weight: 500;
+    border-bottom: 2px solid #4a7c93; }
+    nav > h2 a {
+      color: #646464; }
+  nav > div {
+    box-sizing: border-box;
+    border-bottom: 1px solid #4a7c93;
+    height: 50px;
+    line-height: 50px;
+    width: 230px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #646464; }
+
+#admin_account {
+  color: #e19b04; }
+
+section {
+  background-color: #f5f1d6;
+  border-left: 5px solid #bfbfbf;
+  box-sizing: border-box;
+  width: 800px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+#admin_account_content {
+  padding: 30px; }
+  #admin_account_content h3 {
+    font-size: 20px;
+    color: #e19b04;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 500;
+    border-bottom: 1px solid #999999; }
+  #admin_account_content #query {
+    height: 100px;
+    line-height: 80px;
+    border-bottom: 1px solid #999999; }
+    #admin_account_content #query #uname {
+      height: 28px;
+      width: 200px;
+      border-radius: 5px;
+      border: 1px solid #999999;
+      padding: 0 0 0 10px;
+      margin-left: 10px; }
+    #admin_account_content #query #query_btn {
+      height: 30px;
+      width: 50px;
+      margin-left: 50px;
+      border-radius: 5px;
+      border: 1px solid #999999;
+      background: #c0fffc;
+      padding: 0; }
+  #admin_account_content #table_information p {
+    height: 60px;
+    line-height: 60px; }
+  #admin_account_content #table_information table {
+    width: 700px;
+    border: 1px solid #999999;
+    border-spacing: 0;
+    border-collapse: collapse; }
+    #admin_account_content #table_information table th {
+      line-height: 40px;
+      border: 1px solid #999999; }
+    #admin_account_content #table_information table td {
+      line-height: 40px;
+      border: 1px solid #999999;
+      text-align: center; }
+
+/*# sourceMappingURL=admin_account.css.map */

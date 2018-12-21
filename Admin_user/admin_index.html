@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>admin_index</title>
+    <link rel="stylesheet" href="css/admin_index.css">
+</head>
+<body>
+<div id="main_wrap">
+    <h1 id="logo">
+        <p>
+            <a href="javascript:;">高考志愿模拟系统</a>
+            <strong>  ——  普通管理员</strong>
+        </p>
+    </h1>
+    <div id="main">
+        <nav>
+            <!--nav-->
+            <h2><a href="javascript:;">功能操作</a></h2>
+            <div id="personal_information">
+                <p>
+                    个人信息
+                </p>
+            </div>
+            <div id="admin_account">
+                <p>
+                    普通用户账号管理
+                </p>
+            </div>
+            <div id="school_Information">
+                <p>
+                    高校信息
+                </p>
+            </div>
+            <div id="announcement">
+                <p>
+                    公告管理
+                </p>
+            </div>
+        </nav>
+        <section>
+            <!--个人信息内容-->
+            <div id="personal_information_content">
+                <h3>个人信息</h3>
+                <div id="basic_information">
+                    <h4>个人头像</h4>
+                    <div id="head_portrait">
+                        <img src="img/zhang.jpg" id="pic"/>
+                    </div>
+                    <div class="upload">
+                        <form>
+                            <input type="file" id="files" accept="image/gif,image/jpeg,image/jpg,image/png,image/svg">
+                        </form>
+                        <p id="upload_btn">上传头像</p>
+                    </div>
+                    <div id="basic_content">
+                        <p>基本内容</p>
+                        <!--<table id="show_basic">
+                            <tr>
+                                <td><span>姓名</span><b>啊</b></td>
+                            </tr>
+                            <tr>
+                                <td><span>性别</span><b></b></td>
+                            </tr>
+                            <tr>
+                                <td><span>年龄</span><b></b></td>
+                            </tr>
+                            <tr>
+                                <td><span>邮箱</span><b></b></td>
+                            </tr>
+                            <tr>
+                                <td><span>联系方式</span><b></b></td>
+                            </tr>
+                            <tr>
+                                <td><span>部门</span><b></b></td>
+                            </tr>
+                            <tr>
+                                <td><span>职位</span><b></b></td>
+                            </tr>
+                            <tr>
+                                <td><button id="modify_information">修改信息</button></td>
+                            </tr>
+                        </table>-->
+                        <table id="change_basic">
+                            <tr>
+                                <td><span>姓名</span><input type="text" name="userName" id="userName"></td>
+                            </tr>
+                            <tr>
+                                <td><span>性别</span><input type="text" name="sex" id="sex"></td>
+                            </tr>
+                            <tr>
+                                <td><span>年龄</span><input type="text" name="age" id="age"></td>
+                            </tr>
+                            <tr>
+                                <td><span>邮箱</span><input type="text" name="email" id="email"></td>
+                            </tr>
+                            <tr>
+                                <td><span>联系方式</span><input type="text" name="phone" id="phone"></td>
+                            </tr>
+                            <tr>
+                                <td><span>部门</span><input type="text" name="department" id="department"></td>
+                            </tr>
+                            <tr>
+                                <td><span>职位</span><input type="text" name="position" id="position"></td>
+                            </tr>
+                            <tr>
+                                <td><button id="change_btn">确认修改</button></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div id="account_information">
+                    <h4>账号信息</h4>
+                    <table>
+                        <tr>
+                            <td><span>账号</span><input type="text" id="user" disabled></td>
+                        </tr>
+                        <tr>
+                            <td><span>密码</span><input type="text" id="pwd"></td>
+                            <td id="upwd_td"><button id="change_upwd">修改密码</button></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+        </section>
+    </div>
+</div>
+</body>
+</html>
+<script src="../jquery-1.11.1.js"></script>
+<script src="../public.js"></script>
+<script src="js/admin_index.js"></script>

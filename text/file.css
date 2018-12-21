@@ -1,0 +1,80 @@
+@charset "UTF-8";
+body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, table, fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li, ol {
+  list-style: none;
+}
+
+img, fieldset {
+  border: 0;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+}
+
+body {
+  font-family: "微软雅黑";
+}
+
+input, a {
+  outline: none;
+}
+
+#basic_information {
+  height: 200px;
+  background: #e7e1cd;
+}
+#basic_information h4 {
+  color: #666666;
+  font-weight: 100;
+}
+#basic_information #head_portrait {
+  height: 150px;
+  width: 100px;
+}
+#basic_information #head_portrait img {
+  width: 100px;
+  height: 150px;
+}
+#basic_information .upload {
+  position: relative;
+  width: 100px;
+  height: 26px;
+  background: #1bbe9f;
+  color: white;
+  border-radius: 2px;
+}
+#basic_information .upload form {
+  width: 100px;
+  height: 26px;
+  opacity: 0;
+}
+#basic_information .upload form input {
+  width: 100%;
+  height: 100%;
+}
+#basic_information .upload p {
+  width: 100px;
+  height: 26px;
+  text-align: center;
+  line-height: 26px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=file.css.map */

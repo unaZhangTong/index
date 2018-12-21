@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{ font-family:"微软雅黑";}
+input,a{outline:none;}
+
+body{
+  background: #b0d6af;
+}
+#main_wrap{
+  background: url("../img/mianBgImg1.png") no-repeat 0% 300px ,url("../img/mianBgImg7.png") no-repeat 118% 60%,url("../img/mianBgImg6.png") no-repeat 2% 100%;
+  padding-bottom: 100px;
+}
+
+//标题
+#logo{
+  width: 100%;
+  height: 181px;
+  background: url("../img/bgImg.png") 80% -10% no-repeat #b0d6af ;
+  p{
+    line-height: 190px;
+    padding-left: 100px;
+    a{
+      color: #249225;
+      font-size: 50px;
+      font-family: "楷体";
+    }
+    strong{
+      font-size: 24px;
+      font-family: "楷体";
+      color: #e27f09;
+    }
+  }
+}
+
+
+//主要内容
+#main{
+  width: 1100px;
+  height: 900px;
+  background-color: #f5f1d6;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+
+}
+
+//导航栏
+nav{
+  background-color: #f5f1d6;
+  width: 260px;
+  height: 500px;
+  padding-left: 30px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  >h2{
+    box-sizing: border-box;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    width: 230px;
+    font-size: 24px;
+    font-weight: 500;
+    border-bottom: 2px solid #4a7c93;
+    a{
+      color: #646464;
+    }
+  }
+  >div{
+    box-sizing: border-box;
+    border-bottom: 1px solid #4a7c93;
+    height: 50px;
+    line-height: 50px;
+    width: 230px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #646464;
+  }
+}
+#personal_information{
+  color: #e19b04;
+}
+//内容
+section{
+  background-color: #f5f1d6;
+  border-left: 5px solid #bfbfbf;
+  box-sizing: border-box;
+  width: 800px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+//个人信息
+#personal_information_content{
+  padding : 30px;
+  h3{
+    font-size: 20px;
+    color: #e19b04;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 500;
+    border-bottom: 1px solid #999999;
+  }
+  #basic_information{
+
+    padding: 20px 0px ;
+    position: relative;
+    //height: 200px;
+    //background: #e7e1cd;
+    border-bottom: 1px solid #999999;
+    padding-bottom: 20px;
+    h4{
+      color: #666666;
+      font-weight: 500;
+      line-height: 30px;
+      padding-left: 20px;
+    }
+    #head_portrait{
+      height: 180px;
+      width: 100px;
+      #pic{
+        position: absolute;
+        left: 140px;
+        top: 40px;
+        width: 100px;
+        height: 150px;
+        border-radius: 5px;
+        border: 1px solid #666666;
+      }
+    }
+    .upload{
+      position: absolute;
+      left: 300px;
+      top: 100px;
+      width: 100px;
+      height: 26px;
+      background: #1bbe9f;
+      color: white;
+      border-radius: 2px;
+      form{
+        width: 100px;
+        height: 26px;
+        opacity: 0;
+        input{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      p{
+        width: 100px;
+        height: 26px;
+        text-align: center;
+        line-height: 26px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        cursor: pointer;
+      }
+    }
+  }
+}
+//基本内容
+#basic_content{
+  p{
+    color: #666666;
+    font-weight: 500;
+    line-height: 30px;
+    padding-left: 20px;
+  }
+  table{
+    margin-left: 20px;
+    border-collapse: collapse;
+    //border: 1px solid #666666;
+    color: #333333;
+    td{
+      //border: 1px solid #666666;
+      height: 40px;
+      line-height: 40px;
+      span{
+        display: inline-block;
+        width: 80px;
+        padding-right: 40px;
+        text-align: justify;
+        text-align-last: justify;
+      }
+      input,b{
+        width: 200px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+
+//更改信息按钮
+#change_btn,#modify_information{
+  padding: 5px 20px;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 10px;
+  line-height: 30px;
+  background: #1bbe9f;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+//账号信息
+#account_information{
+  padding: 20px 0px ;
+  position: relative;
+  //height: 200px;
+  //background: #e7e1cd;
+  border-bottom: 1px solid #999999;
+  padding-bottom: 20px;
+  h4{
+    color: #666666;
+    font-weight: 500;
+    line-height: 30px;
+    padding-left: 20px;
+  }
+  table{
+    margin-left: 20px;
+    border-collapse: collapse;
+    //border: 1px solid #666666;
+    color: #333333;
+    td{
+      //border: 1px solid #666666;
+      height: 40px;
+      line-height: 40px;
+      span{
+        display: inline-block;
+        width: 80px;
+        padding-right: 40px;
+        text-align: justify;
+        text-align-last: justify;
+      }
+      input{
+        width: 200px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+//修改信息显示和隐藏
+#change_basic{
+  display: none;
+}
+
+
+
+
+//修改密码
+#upwd_td{
+  width: 100px;
+  height: 30px;
+}
+#change_upwd{
+  width: 100px;
+  margin-left: 50px;
+}
+
+

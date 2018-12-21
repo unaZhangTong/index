@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>admin_account</title>
+    <link rel="stylesheet" href="css/admin_account.css">
+</head>
+<body>
+<div id="main_wrap">
+    <h1 id="logo">
+        <p>
+            <a href="javascript:;">高考志愿模拟系统</a>
+            <strong>  ——  普通管理员</strong>
+        </p>
+    </h1>
+    <div id="main">
+        <nav>
+            <!--nav-->
+            <h2><a href="javascript:;">功能操作</a></h2>
+            <div id="personal_information">
+                <p>
+                    个人信息
+                </p>
+            </div>
+            <div id="admin_account">
+                <p>
+                    普通用户账号管理
+                </p>
+            </div>
+            <div id="school_Information">
+                <p>
+                    高校信息
+                </p>
+            </div>
+            <div id="announcement">
+                <p>
+                    公告管理
+                </p>
+            </div>
+        </nav>
+        <section>
+
+            <!--普通管理员账号管理-->
+            <div id="admin_account_content">
+                <h3>普通用户账号管理</h3>
+                <p id="query">
+                    <span>查询普通用户账号 ：</span>
+                    <input type="text" name="uname" id="uname">
+                    <input type="button" value="查询" id="query_btn">
+                </p>
+                <div id="table_information">
+                    <p>所有普通用户账号信息</p>
+                    <!--<table>
+                        <tr>
+                            <th>序号</th>
+                            <th>用户名</th>
+                            <th>密码</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>123@qq.com</td>
+                            <td>123zzzzzz</td>
+                        </tr>
+                    </table>-->
+                </div>
+            </div>
+
+
+        </section>
+    </div>
+</div>
+</body>
+</html>
+<script src="../jquery-1.11.1.js"></script>
+<script src="../public.js"></script>
+<script src="js/admin_account.js"></script>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/admin_add.css">
+</head>
+<body>
+    <div id="main_wrap">
+        <div id="main">
+            <h2>请输入要添加的<mark>普通管理员</mark>账号信息</h2>
+            <p>
+                <span>用&nbsp;户&nbsp;名 ：</span>
+                <input type="text" name="uname" id="uname">
+                <strong>用户名请使用邮箱账号</strong>
+            </p>
+            <p>
+                <span>密&ensp;&ensp;&nbsp;&nbsp;码 ：</span>
+                <input type="text" name="upwd" id="upwd">
+                <strong>密码由字母、数字组成，长度8-16位</strong>
+            </p>
+            <p>
+                <input type="button" value="确认添加" id="confirm_btn">
+            </p>
+            <p>
+                <input type="button" value="取消添加，返回主页" id="cancel_btn">
+            </p>
+
+
+        </div>
+        <div id="hint">
+
+        </div>
+    </div>
+</body>
+</html>
+<script src="../../jquery-1.11.1.js"></script>
+<script src="../../public.js"></script>
+<script src="../js/admin_add.js"></script>

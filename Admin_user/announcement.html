@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>announcement</title>
+    <link rel="stylesheet" href="css/announcement.css">
+</head>
+<body>
+<div id="main_wrap">
+    <h1 id="logo">
+        <p>
+            <a href="javascript:;">高考志愿模拟系统</a>
+            <strong>  ——  普通管理员</strong>
+        </p>
+    </h1>
+    <div id="main">
+        <nav>
+            <!--nav-->
+            <h2><a href="javascript:;">功能操作</a></h2>
+            <div id="personal_information">
+                <p>
+                    个人信息
+                </p>
+            </div>
+            <div id="admin_account">
+                <p>
+                    普通用户账号管理
+                </p>
+            </div>
+            <div id="school_Information">
+                <p>
+                    高校信息
+                </p>
+            </div>
+            <div id="announcement">
+                <p>
+                    公告管理
+                </p>
+            </div>
+        </nav>
+        <section>
+            <!--普通管理员账号管理-->
+            <div id="admin_account_content">
+                <h3>公告管理</h3>
+                <p id="query">
+                    <span>查询发布公告账号 ：</span>
+                    <input type="text" name="uname" id="uname">
+                    <input type="button" value="查询" id="query_btn">
+                    <input type="button" value="发布新公告" id="add_new">
+                </p>
+                <div id="table_information">
+                    <p>所有发布公告列表</p>
+                    <table>
+                        <tr>
+                            <th>题目</th>
+                            <th>作者</th>
+                            <th>发布日期</th>
+                            <th>操作</th>
+                        </tr>
+                        <tr>
+                            <td><a href="html/announcement_add.html?uname=qwe@qq.com">高考改革相关注意事项</a></td>
+                            <td>管理员1号</td>
+                            <td>2018-12-20</td>
+                            <td>
+                                <a href="javascript:;" class="del" sid="${cur.id}">删除</a> |
+                                <a href="javascript:;" class="updata" sid="${cur.id}" uname="${cur.uname}" upwd="${cur.upwd}">修改</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+
+
+        </section>
+    </div>
+</div>
+</body>
+</html>
+<script src="../jquery-1.11.1.js"></script>
+<script src="../public.js"></script>
+<script src="js/announcement.js"></script>

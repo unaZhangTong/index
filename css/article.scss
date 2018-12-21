@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{ font-family:"微软雅黑";}
+input,a{outline:none;}
+
+
+#head,#main{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+header{
+  border-top: 20px solid #7dc7f5;
+  background: url("../img/bannerBg.jpg")no-repeat 60% bottom #eef9ff;
+}
+
+#head{
+  height: 150px;
+}
+#logo{
+  float: left;
+  height: 150px;
+  line-height: 150px;
+  width: 500px;
+  font-size: 50px;
+  font-family: "华文行楷";
+  color: #f48112;
+  span{
+    font-size: 24px;
+    color: #f38b05;
+  }
+}
+
+
+
+
+
+nav{
+  border-top: 20px solid #c6e7f6;
+  #nav_main{
+    width: 1100px;
+    margin: 0 auto;
+    ul{
+      height: 80px;
+      margin: 0 auto;
+      li{
+        float: left;
+        height: 80px;
+        text-align: center;
+        letter-spacing: 3px;
+        line-height: 80px;
+        padding: 0 40px;
+        a{
+          color: #4a7c93;
+          font-size: 20px;
+        }
+      }
+    }
+    p{
+      padding-bottom: 20px;
+    }
+    #article_content{
+      color: #666666;
+    }
+
+  }
+}
